@@ -5,7 +5,7 @@ Welcome to my CFD Portfolio! Here, you will find a collection of CFD projects th
 ## Featured Projects
 - [Oil-Water Flow in Microwells](Projects/Project1_Oil-Water_Flow_in_Microwells)
 - [Oil-Water Emulsions with Soluble Surfactants](Projects/Project2_Oil-Water_Emulsions_with_Soluble_Surfactants)
-- [Flow Over $90\textdegree$-Band](Projects/Project3_Flow_Over_90-degree-Band)
+- [Flow Over Right-Angle Band](Projects/Project3_Flow_Over_Right-Angle_Band)
   
 ## About Me
 I am a mechanical engineer specializing in Computational Fluid Dynamics (CFD). With a background in both theoretical and applied fluid dynamics, I have over two and a half years of experience working on various simulations and optimizations. This portfolio highlights my expertise in CFD and its applications.
