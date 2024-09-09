@@ -9,12 +9,12 @@ The goal of this project was to develop a diffuse interface model for a system o
 - **Numerical methods**: Lattice Boltzmann Method and Finite Difference Method
 - **Post-processing**: Python, MATLAB, ParaView 
 
-## Results
-- **Adsorption dynamics of surfactants on the interface of oil-water drop for Langmuir isotherm**:
+# Results
+## 1. Adsorption dynamics of surfactants on the interface of oil-water drop for Langmuir isotherm:
 
 [Download Implicit VOF Simulation Video](images/Oil-Water_drop_surfactant_adsorption.png)
 
-Here, $\phi$ is the relative density difference between oil and water. It means that $\phi=-1$, $\phi=0$, and $\phi=1$ represent the water phase, oil-water interface, and oil phase, respectively. $\psi$ is the volume fraction of the surfactant. $\psi_{b}$ is a bulk surfactant volume fraction.
+### Here, $\phi$ is the relative density difference between oil and water. It means that $\phi=-1$, $\phi=0$, and $\phi=1$ represent the water phase, oil-water interface, and oil phase, respectively. $\psi$ is the volume fraction of the surfactant. $\psi_{b}$ is a bulk surfactant volume fraction.
 
 The results show that the surfactant distribution over the interface is more uniform for higher bulk surfactant volume fraction (Figure (b) vs Figure (d)).
 
