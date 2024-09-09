@@ -4,11 +4,11 @@
 The objective of this project was to simulate the flow of oil in microwells initially filled with water, with the goal of comparing the performance of implicit and explicit Volume of Fluid (VOF) models in ANSYS Fluent. The focus was on analyzing the sharpness of the oil-water interface and the differences in modeling accuracy between the two approaches.
 
 ## Approach
-- **Software**: Ansys Workbench
+- **Software**: Ansys Workbench - Ansys SpaceClaim and Ansys Fluent
 - **Mesh**: Quadrilateral elements
 - **Model**: Multiphase model - Volume of Fluid (Implicit & Explicit formulations)
-- **Boundary Conditions**: Oil mass flow rate = 0.004 kg/s, outlet pressure = 0 Pa, and no-slip condition on the internal walls
-- **Initial Conditions**: Phase 1 (i.e., water) volume fraction = 1 and Phase 2 (i.e., oil) volume fraction = 0 
+- **Boundary conditions**: Oil mass flow rate = 0.004 kg/s, outlet pressure = 0 Pa, and no-slip condition on the internal walls
+- **Initial conditions**: Phase 1 (i.e., water) volume fraction = 1 and Phase 2 (i.e., oil) volume fraction = 0 
 
 ## Results
 ![Evolution of oil volume fraction for the case of implicit VOF model](animations/Implicit_VOF.mp4)
