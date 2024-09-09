@@ -11,6 +11,6 @@ The objective of this project was to simulate the flow of oil in microwells init
 - **Initial Conditions**: Phase 1 (i.e., water) volume fraction = 1 and Phase 2 (i.e., oil) volume fraction = 0 
 
 ## Results
-![Oil Volume Fraction](animations/Implicit_VOF.mp4)
+![Oil Volume Fraction](Implicit_VOF.mp4)
 
 The velocity contours and pressure distribution showed a clear vortex shedding pattern with Strouhal number calculated to be 0.21, matching well with theoretical predictions.
