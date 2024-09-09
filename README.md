@@ -3,9 +3,9 @@
 Welcome to my CFD Portfolio! Here, you will find a collection of CFD projects that highlight my expertise in both using industry-standard CFD software and developing custom CFD code solutions.
 
 ## Featured Projects
-- [Oil-Water_Flow_in_Microchannels](Projects/Project1_Oil-Water_Flow_in_Microchannels)
+- [Oil-Water Flow in Microchannels](Projects/Project1_Oil-Water_Flow_in_Microchannels)
 - [NACA Airfoil Simulation](Projects/Project2_)
-- [Oil-Water_Emulsions_with_Soluble_Surfactants](Projects/Project3_Oil-Water_Emulsions_with_Soluble_Surfactants)
+- [Oil-Water Emulsions with Soluble Surfactants](Projects/Project3_Oil-Water_Emulsions_with_Soluble_Surfactants)
 
 ## About Me
 I am a mechanical engineer specializing in Computational Fluid Dynamics (CFD). With a background in both theoretical and applied fluid dynamics, I have over two and a half years of experience working on various simulations and optimizations. This portfolio highlights my expertise in CFD and its applications.
