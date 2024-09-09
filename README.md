@@ -3,7 +3,7 @@
 Welcome to my CFD Portfolio! Here, you will find a collection of CFD projects that highlight my expertise in both using industry-standard CFD software and developing custom CFD code solutions.
 
 ## Featured Projects
-- [Oil-Water Flow in Microchannels](Projects/Project1_Oil-Water_Flow_in_Microchannels)
+- [Oil-Water Flow in Microwells](Projects/Project1_Oil-Water_Flow_in_Microwells)
 - [NACA Airfoil Simulation](Projects/Project2_)
 - [Oil-Water Emulsions with Soluble Surfactants](Projects/Project3_Oil-Water_Emulsions_with_Soluble_Surfactants)
 
