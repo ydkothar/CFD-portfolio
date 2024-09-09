@@ -20,7 +20,7 @@ The results show that the surfactant distribution over the interface is more uni
 
 ## 2. Surface tension reduction in the presence of different surfactants for Langmuir and Frumkin isotherms:
 
-
+[Surfactant tension reduction for different isotherms](images/Surface_tension_reduction.png)
 
 Here, $\psi_{0}$ is the surfactant volume fraction at the oil-water drop interface. Higher values of $\lambda_{2}$ describe the type of surfactant with dense packing of surfactant molecules; whereas, lower values of $\lambda_{2}$ represent the loosely packed arrangement of surfactant molecules.  $\sigma_0$ is the surface tension of the pure system (i.e., oil-water mixture). The reduction of the surface tension compared to the surface tension of the pure system, $\dfrac{\Delta\sigma}{\sigma_{0}}=\dfrac{\sigma(\psi_{0})-\sigma_{0}}{\sigma_{0}}$. $\alpha$ is a fitting coefficient for the analytical equation of surface tension.
 
