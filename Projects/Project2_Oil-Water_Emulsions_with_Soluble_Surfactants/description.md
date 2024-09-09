@@ -12,7 +12,7 @@ The goal of this project was to develop a diffuse interface model for a system o
 ## Results
 - **Adsorption dynamics of surfactants on the interface of oil-water drop for Langmuir isotherm**:
 
-(images/Oil-Water_drop_surfactant_adsorption.png)
+[Download Implicit VOF Simulation Video](images/Oil-Water_drop_surfactant_adsorption.png)
 
 Here, $\phi$ is the relative density difference between oil and water. It means that $\phi=-1$, $\phi=0$, and $\phi=1$ represent the water phase, oil-water interface, and oil phase, respectively. $\psi$ is the volume fraction of the surfactant. $\psi_{b}$ is a bulk surfactant volume fraction.
 
