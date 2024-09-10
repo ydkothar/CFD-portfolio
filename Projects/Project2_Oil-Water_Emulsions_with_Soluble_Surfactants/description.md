@@ -12,7 +12,7 @@ The goal of this project was to develop a diffuse interface model for a system o
 ## Results
 ## 1. Adsorption dynamics of surfactants on the interface of oil drop dispersed in water for Langmuir isotherm:
 
-[Surfactant adsorption on oil-water interface](images/Oil-Water_drop_surfactant_adsorption.png)
+Surfactant adsorption on oil-water interface:[Surfactant adsorption on oil-water interface](images/Oil-Water_drop_surfactant_adsorption.png)
 
 Here, $\phi$ is the relative density difference between oil and water. It means that $\phi=-1$, $\phi=0$, and $\phi=1$ represent the water phase, oil-water interface, and oil phase, respectively. $\psi$ is the volume fraction of the surfactant. $\psi_{b}$ is a bulk surfactant volume fraction.
 
@@ -20,7 +20,7 @@ The results show that the surfactant distribution over the drop interface is mor
 
 ## 2. Surface tension reduction in the presence of different surfactants for Langmuir and Frumkin isotherms:
 
-[Surfactant tension reduction for different isotherms](images/Surface_tension_reduction.png)
+Surfactant tension reduction for different isotherms:[Surfactant tension reduction for different isotherms](images/Surface_tension_reduction.png)
 
 Here, $\psi_{0}$ is the surfactant volume fraction at the interface of oil drop dispersed in water. Higher values of $\lambda_{2}$ describe the type of surfactant with dense packing of surfactant molecules; whereas, lower values of $\lambda_{2}$ represent the loosely packed arrangement of surfactant molecules.  $\sigma_0$ is the surface tension of the pure system (i.e., oil-water mixture). The reduction of the surface tension compared to the surface tension of the pure system is expressed as, $\dfrac{\Delta\sigma}{\sigma_{0}}=\dfrac{\sigma(\psi_{0})-\sigma_{0}}{\sigma_{0}}$. $\alpha$ is a fitting coefficient for the analytical equation of surface tension.
 
