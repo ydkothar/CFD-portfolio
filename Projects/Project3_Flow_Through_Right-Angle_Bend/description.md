@@ -7,7 +7,7 @@ The objective of this project was to model air flow through a square duct with a
 - **Software**: SOLIDWORKS, STAR-CCM+
 - **Mesh**: Structured grid with refinement near wall areas
 - **Model**: Turbulence model - Standard k-epsilon model with high-y+, EB k-epsilon model with low-y+, Realizable k-epsilon model with all-y+
-- **Boundary conditions**: Inlet - uniform velocity = 10 m/s, Outlet - flow outlet, wall - no slip condition
+- **Boundary conditions**: Inlet - uniform velocity = 10 m/s, Outlet - flow outlet, internal walls - no-slip condition
 - **Initial conditions**: velocity = 0 m/s 
 
 ## Results
