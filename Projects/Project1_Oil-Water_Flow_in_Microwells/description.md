@@ -11,7 +11,8 @@ The objective of this project was to simulate the flow of oil in microwells init
 - **Initial conditions**: Phase 1 (i.e., water) volume fraction = 1 and Phase 2 (i.e., oil) volume fraction = 0 
 
 ## Results
-![Evolution of oil volume fraction for the case of implicit VOF model](animations/Implicit_VOF.mp4)
-![Evolution of oil volume fraction for the case of explicit VOF model](animations/Implicit_VOF.mp4)
+Evolution of oil volume fraction for the case of implicit VOF model:![Evolution of oil volume fraction for the case of implicit VOF model](animations/Implicit_VOF.mp4)
+
+Evolution of oil volume fraction for the case of explicit VOF model:![Evolution of oil volume fraction for the case of explicit VOF model](animations/Implicit_VOF.mp4)
 
 Here, the oil and water phases are represented by red and blue colors respectively. From the observation, it is clear that the explicit formulation of the VOF model captures the sharp interface between the oil and water phases with greater accuracy and minimal diffusion, compared to the implicit formulation of the VOF model.
