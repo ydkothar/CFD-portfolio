@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oil-Water Emulsions with Soluble Surfactants</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Oil-Water Emulsions with Soluble Surfactants</h1>
+    </header>
+
+    <section id="objective">
+        <h2>Objective</h2>
+        <p>The goal of this project was to develop a diffuse interface model for a system of immiscible liquids (oil and water) and soluble surfactants. The objective was to accurately predict the reduction in surface tension caused by surfactants, a key factor in enhanced oil recovery (EOR) processes.</p>
+    </section>
+
+    <section id="approach">
+        <h2>Approach</h2>
+        <ul>
+            <li><strong>CFD code development:</strong> FORTRAN</li>
+            <li><strong>Model:</strong> Phase field model (i.e., Diffuse interface model)</li>
+            <li><strong>Numerical methods:</strong> Lattice Boltzmann Method and Finite Difference Method</li>
+            <li><strong>Post-processing:</strong> Python, MATLAB, ParaView</li>
+        </ul>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <h3>1. Adsorption Dynamics of Surfactants on the Oil-Water Interface</h3>
+        <p>Surfactant adsorption on the oil-water interface:</p>
+        <img src="images/Oil-Water_drop_surfactant_adsorption.png" alt="Surfactant adsorption on oil-water interface">
+
+        <p>Here, &phi; represents the relative density difference between oil and water. &phi; = -1, &phi; = 0, and &phi; = 1 represent the water phase, oil-water interface, and oil phase, respectively. &psi; is the volume fraction of the surfactant, and &psi;<sub>b</sub> is the bulk surfactant volume fraction.</p>
+        <p>The results indicate that the surfactant distribution over the drop interface is more uniform for higher bulk surfactant volume fraction.</p>
+
+        <h3>2. Surface Tension Reduction in the Presence of Different Surfactants for Langmuir and Frumkin Isotherms</h3>
+        <p>Surface tension reduction for different isotherms:</p>
+        <img src="images/Surface_tension_reduction.png" alt="Surfactant tension reduction for different isotherms">
+
+        <p>Here, &psi;<sub>0</sub> represents the surfactant volume fraction at the oil-water interface. Higher values of &lambda;<sub>2</sub> correspond to denser packing of surfactant molecules, while lower values represent looser packing. &sigma;<sub>0</sub> is the surface tension of the pure oil-water system. The surface tension reduction compared to the pure system is expressed as:</p>
+
+        <p>&Delta;&sigma;/&sigma;<sub>0</sub> = (&sigma;(&psi;<sub>0</sub>) - &sigma;<sub>0</sub>)/&sigma;<sub>0</sub></p>
+
+        <p>The solid curves represent analytical solutions, while the markers indicate numerical solutions. As &lambda;<sub>2</sub> increases, the surface tension decreases significantly for the same surfactant volume fraction. These results align with experimental observations of binary liquid-surfactant systems for the Langmuir isotherm, where typical surface tension reductions range between 30-60% of &sigma;<sub>0</sub>.</p>
+
+        <p>Overall, the proposed diffuse interface model effectively represents phenomena such as surfactant adsorption dynamics and surface tension reduction for different surfactants.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yash's CFD Portfolio - Oil-Water Emulsions with Soluble Surfactants</p>
+    </footer>
+</body>
+
+</html>
