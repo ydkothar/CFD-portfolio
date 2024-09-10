@@ -1,7 +1,3 @@
-# Yash's CFD Portfolio
-
-You will find a collection of CFD projects that highlight my expertise in both using industry-standard CFD software and developing custom CFD code solutions.
-
 ## Featured CFD Projects
 - [Oil-Water Flow in Microwells](Projects/Project1_Oil-Water_Flow_in_Microwells)
 - [Oil-Water Emulsions with Soluble Surfactants](Projects/Project2_Oil-Water_Emulsions_with_Soluble_Surfactants)
