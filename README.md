@@ -1,6 +1,6 @@
-# CFD Portfolio
+# CFD-Portfolio
 
-Welcome to my CFD Portfolio! Here, you will find a collection of CFD projects that highlight my expertise in both using industry-standard CFD software and developing custom CFD code solutions.
+You will find a collection of CFD projects that highlight my expertise in both using industry-standard CFD software and developing custom CFD code solutions.
 
 ## Featured Projects
 - [Oil-Water Flow in Microwells](Projects/Project1_Oil-Water_Flow_in_Microwells)
