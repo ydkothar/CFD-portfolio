@@ -42,26 +42,17 @@
             width: 100%;
         }
 
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .images {
+        .video-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 20px;
         }
 
-        .images img {
+        .video-container video {
             max-width: 80%;
             height: auto;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -89,12 +80,15 @@
 
     <section id="results">
         <h2>Results</h2>
-        <div class="images">
-            <video width="720" controls>
+        <div class="video-container">
+            <h3>Evolution of oil volume fraction for the case of implicit VOF model:</h3>
+            <video controls>
                 <source src="animations/Implicit_VOF.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <video width="720" controls>
+
+            <h3>Evolution of oil volume fraction for the case of explicit VOF model:</h3>
+            <video controls>
                 <source src="animations/Explicit_VOF.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
