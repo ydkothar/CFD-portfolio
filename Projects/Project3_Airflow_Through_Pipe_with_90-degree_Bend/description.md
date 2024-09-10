@@ -1,7 +1,7 @@
-# Flow Through Right-Angle Bend
+# Airflow Through Pipe with 90-degree Bend
 
 ## Objective
-The objective of this project was to model air flow through a square duct with a right-angle bend. The aim was to understand the connection between wall treatment and mesh for different turbulence models.
+The objective of this project was to model air flow through a pipe with a 90-degree bend. The aim was to understand the connection between wall treatment and mesh for different turbulence models.
 
 ## Approach
 - **Software**: SOLIDWORKS, STAR-CCM+
