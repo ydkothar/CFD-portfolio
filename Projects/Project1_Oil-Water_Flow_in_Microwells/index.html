@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oil-Water Flow in Microwells</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .images img {
+            max-width: 80%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Oil-Water Flow in Microwells</h1>
+    </header>
+
+    <section id="objective">
+        <h2>Objective</h2>
+        <p>The objective of this project was to simulate the flow of oil in microwells initially filled with water, with the goal of comparing the performance of implicit and explicit Volume of Fluid (VOF) models in ANSYS Fluent. The focus was on analyzing the sharpness of the oil-water interface and the differences in modeling accuracy between the two approaches.</p>
+    </section>
+
+    <section id="approach">
+        <h2>Approach</h2>
+        <ul>
+            <li><strong>Software:</strong> Ansys Workbench - Ansys SpaceClaim, Ansys Fluent</li>
+            <li><strong>Mesh:</strong> Structured grid (Quadrilateral elements)</li>
+            <li><strong>Model:</strong> Multiphase model - Volume of Fluid (Implicit & Explicit formulations)</li>
+            <li><strong>Boundary conditions:</strong> Inlet - Oil mass flow rate = 0.004 kg/s, outlet pressure = 0 Pa, internal walls = no-slip condition</li>
+            <li><strong>Initial conditions:</strong> Phase 1 (i.e., water) volume fraction = 1 and Phase 2 (i.e., oil) volume fraction = 0</li>
+        </ul>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <div class="images">
+            <video width="720" controls>
+                <source src="animations/Implicit_VOF.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video width="720" controls>
+                <source src="animations/Explicit_VOF.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p>Here, the oil and water phases are represented by red and blue colors respectively. From the observation, it is clear that the explicit formulation of the VOF model captures the sharp interface between the oil and water phases with greater accuracy and minimal diffusion, compared to the implicit formulation of the VOF model.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yash's CFD Portfolio - Oil-Water Flow in Microwells</p>
+    </footer>
+</body>
+
+</html>
