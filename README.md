@@ -11,4 +11,4 @@ I am a mechanical engineer specializing in Computational Fluid Dynamics (CFD). W
 ## Skills & Tools
 - ANSYS Workbench, STAR-CCM+
 - Python, MATLAB, and FORTRAN
-- 2D and 3D CAD Design, Mesh Generation, Multiphase Models Turbulence Models, and Post-Processing
+- 2D and 3D CAD Design, Mesh Generation, Multiphase Models, Turbulence Models, and Post-Processing
