@@ -21,6 +21,6 @@ All three models predicted flow acceleration in and after the bend. However, the
 
 ### 2. Change in wall shear stress (WSS) when flow passes through the right-angle bend:
 
-WSS plot for different turbulence models:[WSS plot for different turbulence models](images/WSS.png)
+WSS plot for different turbulence models:[WSS plot for different turbulence models](images/WSS.PNG)
 
 The Wall Shear Stress (WSS) plot for these cases shows that the standard k-epsilon model failed to predict flow separation. In contrast, the shift in WSS values observed in other models indicates successful prediction of flow separation as the air passes through the bend.
